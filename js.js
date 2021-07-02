@@ -24,8 +24,8 @@ let erasing = false;
 
 const billboards = [
     {
-        title: "Health Care & Erectile Dysfunction Cases",
-        slogan: "We're hard... at work for you!"
+        title: "Erectile Dysfunction Supplement Cases",
+        slogan: "I'm hard... at work for you!"
     },
     {
         title: "Criminal Defense Attorney",
@@ -57,7 +57,7 @@ const billboards = [
     },
     {
         title: "Finance Law",
-        slogan: "This was a bad investment"
+        slogan: "This was a bad investment."
     },
     {
         title: "Constitutional Law",
@@ -65,11 +65,11 @@ const billboards = [
     },
     {
         title: "Workplace Descrimination Cases",
-        slogan: "You can trust me. I have a black wife."
+        slogan: "You can trust me. My wife is black."
     },
     {
         title: "International Space Law",
-        slogan: "E.T. Phone Me!"
+        slogan: "Together we can beat Space ISIS."
     },
     {
         title: "Veteran Services",
@@ -81,7 +81,7 @@ const billboards = [
     },
     {
         title: "Lawyer",
-        slogan: "Don't you work about blank, let me worry about blank"
+        slogan: "Don't you worry about blank, let me worry about blank"
     },
     {
         title: "Bird Law",

@@ -2,6 +2,10 @@
   font-family: "Inter", sans-serif;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -10,9 +14,6 @@ body {
   align-items: center;
   /* Modal Content */
   /* The Close Button */
-}
-body .pointer {
-  cursor: pointer;
 }
 body .modal {
   display: none;
@@ -133,6 +134,7 @@ body .container .billboard .name h1 {
   text-align: center;
 }
 body .container .billboard .name h2 {
+  width: 85%;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   color: #fff;
@@ -142,18 +144,21 @@ body .container .billboard .name h2 {
   background-color: orange;
 }
 body .container .billboard .slogan {
-  margin-top: 100px;
+  height: 100%;
   font-size: 2rem;
   grid-area: 2/2/3/3;
   display: flex;
   justify-content: center;
+  align-items: center;
   color: #fff;
   text-shadow: 2px 3px #000000;
 }
 body .container .billboard .slogan h3 {
+  width: 80%;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   height: auto;
+  text-align: center;
 }
 body .options {
   display: flex;

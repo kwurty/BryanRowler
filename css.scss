@@ -1,6 +1,9 @@
 * {
     font-family: "Inter", sans-serif;
 }
+.pointer {
+    cursor: pointer;
+}
 
 body {
     display: flex;
@@ -9,9 +12,6 @@ body {
     flex-direction: column;
     align-items: center;
 
-    .pointer {
-        cursor: pointer;
-    }
     .modal {
         display: none; /* Hidden by default */
         position: fixed; /* Stay in place */
@@ -130,6 +130,7 @@ body {
                     text-align: center;
                 }
                 h2 {
+                    width: 85%;
                     padding: 0 0 0 0;
                     margin: 0 0 0 0;
                     color: #fff;
@@ -141,18 +142,21 @@ body {
             }
 
             .slogan {
-                margin-top: 100px;
+                height: 100%;
                 font-size: 2rem;
                 grid-area: 2 / 2 / 3 / 3;
                 display: flex;
                 justify-content: center;
+                align-items: center;
                 color: #fff;
                 text-shadow: 2px 3px #000000;
 
                 h3 {
+                    width: 80%;
                     margin: 0 0 0 0;
                     padding: 0 0 0 0;
                     height: auto;
+                    text-align: center;
                 }
             }
         }
