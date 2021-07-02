@@ -65,11 +65,16 @@
         </div>
 
         <div>
-            <i class="fas fa-paint-brush fa-2x is-active" id="paintbrush"></i>
-            <i class="fas fa-eraser fa-2x" id="eraser"></i>
+            <i class="fas fa-paint-brush fa-2x is-active pointer" id="paintbrush"></i>
+            <i class="fas fa-eraser fa-2x pointer" id="eraser"></i>
         </div>
         <div>
-            <button onclick="openModal()"> Custom Labels </button>
+            <button onclick="openModal()"> Custom Titles </button>
+        </div>
+        <div>
+            <i class="fas fa-sync-alt pointer" id="refresh" onclick="setBillboard()"></i>
+            <label for="refresh" onclick="setBillboard()" class="pointer">New Titles</label>
+
         </div>
     </div>
     <div class="download" onclick="download()">

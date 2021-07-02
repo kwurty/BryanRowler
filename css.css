@@ -11,6 +11,9 @@ body {
   /* Modal Content */
   /* The Close Button */
 }
+body .pointer {
+  cursor: pointer;
+}
 body .modal {
   display: none;
   /* Hidden by default */
